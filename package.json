@@ -1,0 +1,27 @@
+{
+  "name": "fitness-app-frontend",
+  "version": "1.0.0",
+  "description": "A fitness app to track and complete challenges",
+  "main": "index.js",
+  "dependencies": {
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/stack": "^6.0.0",
+    "aws-sdk": "^2.1002.0",
+    "react": "17.0.1",
+    "react-native": "^0.77.0",
+    "react-native-sound": "^0.11.0"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.65.1",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "react-test-renderer": "17.0.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "build": "react-native run-android",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
